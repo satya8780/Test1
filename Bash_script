@@ -1,0 +1,28 @@
+#!/bin/bash
+
+echo "Enter the value of A"
+read A
+echo "Enter the value of B"
+read B
+echo "Enter the value of C"
+read C
+
+if [ "$A" -eq 100 ] 
+then
+   echo "value of A is $A"
+else
+   echo "error missing value of A"
+fi
+if [ "$B" -eq 110 ] 
+then
+   echo "value of B is $B"
+else
+   echo "error missing value of B"
+fi
+if [ "$C" -eq 120 ] 
+then
+   echo "value of C is $C"
+else
+   echo "error missing value of C"
+fi
+
